@@ -24,17 +24,17 @@ checkpointz:
 
 beacon:
   upstreams:
-  - name: remote
+  - name: lighthouse-1
     address: http://88.99.94.109:4200
     timeoutSeconds: 30
     dataProvider: true
     # headers:
     #  header_name: header_value
-  - name: remote
+  - name: lighthouse-2
     address: http://88.99.94.109:4309
     timeoutSeconds: 30
     dataProvider: true
-  - name: remote
+  - name: lighthouse-3
     address: http://88.99.94.109:4409
     timeoutSeconds: 30
     dataProvider: true
