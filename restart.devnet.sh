@@ -1,0 +1,5 @@
+
+
+docker restart checkpointz-devnet
+
+
