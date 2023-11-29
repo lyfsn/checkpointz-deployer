@@ -50,3 +50,7 @@ beacon:
     address: http://88.99.94.109:4700
     timeoutSeconds: 30
     dataProvider: true
+  - name: erigon-nimbus-7
+    address: http://88.99.94.109:4800
+    timeoutSeconds: 30
+    dataProvider: true
