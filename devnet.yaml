@@ -24,17 +24,29 @@ checkpointz:
 
 beacon:
   upstreams:
-  - name: lighthouse-1
+  - name: deployer-lighthouse-1
     address: http://88.99.94.109:4200
     timeoutSeconds: 30
     dataProvider: true
     # headers:
     #  header_name: header_value
-  - name: lighthouse-2
+  - name: geth-lighthouse-2
     address: http://88.99.94.109:4300
     timeoutSeconds: 30
     dataProvider: true
-  - name: lighthouse-3
+  - name: erigon-lighthouse-3
     address: http://88.99.94.109:4400
+    timeoutSeconds: 30
+    dataProvider: true
+  - name: erigon-lodestar-4
+    address: http://88.99.94.109:4500
+    timeoutSeconds: 30
+    dataProvider: true
+  - name: nethermind-teku-5
+    address: http://88.99.94.109:4600
+    timeoutSeconds: 30
+    dataProvider: true
+  - name: geth-prysm-6
+    address: http://88.99.94.109:4700
     timeoutSeconds: 30
     dataProvider: true
